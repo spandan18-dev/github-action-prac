@@ -1,0 +1,22 @@
+# workflow 
+# Name of Workflow
+name: first workflow
+ 
+# When to start pipeline
+on:
+  workflow_dispatch:
+
+# job 
+# job shouild be inside the workflow 
+jobs:
+  say-hello:
+    run-on: ubuntu-latest
+
+    # Steps 
+    # Steps shouild be inside the job
+
+    steps:
+    - name: say-hello to everyone 
+      run: echo "Hello World"
+
+ 
