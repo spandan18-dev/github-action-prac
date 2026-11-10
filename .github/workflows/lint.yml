@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: clone the repo
-        uses: actions/checkout@7
+        uses: actions/checkout@4
 
       - name: install linter for py
         run: pip install ruff
-        
+
         
