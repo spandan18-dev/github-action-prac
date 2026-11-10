@@ -17,6 +17,6 @@ jobs:
         run: pip install ruff
 
       - name: Check the py file
-        run:  ruff .
+        run:  ruff check .
 
         
