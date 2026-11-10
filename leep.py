@@ -1,5 +1,6 @@
 # Python program to check if year is a leap year or not
 # Py linter
+# this will check using github action
 year = 2000
 
 # To get year (integer input) from the user
